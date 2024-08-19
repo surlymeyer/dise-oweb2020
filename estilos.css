@@ -1,0 +1,179 @@
+body {
+	background-color: #710c04;
+}
+#contenedor {
+	width: 960px;
+	height: 1200px;
+	background-color: #000;
+	margin-right:auto;
+	margin-left: auto;
+}
+header {
+	background-image: url(img/banner.jpg);
+	width:960px;
+	height:190px;
+	margin-bottom: 40px;
+}
+#marca {
+	width: 960px;
+	height: 190px;
+	float: left;
+}
+nav a {
+text-decoration: none;
+   }
+#navegacion { 
+   background-color: #000000;  
+   padding-left: 260px; 
+}
+ 
+#navegacion ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li { 
+	position: relative;
+    display: inline-block;
+}
+
+.menu li a { 
+	display: block;
+    padding: 15px 20px;
+    color:#de9204;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+ .menu li :hover {
+     color:#710c04;
+ }
+
+.submenu { 
+	position: absolute;
+    display: none;
+    background-color:#000;  
+}
+
+.submenu li a {
+display: block;
+padding: 15px;
+}
+
+.menu li:hover .submenu {
+    display: block; 
+    color: #710c04;  
+}
+#contenido {
+	width: 660px;
+	height: 910px;
+	background-color:#710c04;
+	float: left;
+}
+video {
+	height: 250px;
+	width: 500px;
+	
+}
+h1 {
+	font-size: 25pt;
+	margin-top: 15px;
+	margin-bottom: 0;
+	margin-right: 50px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+h2 {
+	font-family: Verdana;
+	text-align: center;
+	color: #c09630;
+}
+h5 {
+	color: #edb2ad;
+	text-align: justify;
+	font-size: 15px;
+	font-family: cambria;
+	margin-right: 50px;
+	margin-top: 0;
+}
+p {
+	font-family: "Segoe UI";
+	color: #fff;
+	text-align: justify;
+	margin-left:2px;
+	margin-right: 50px;
+	margin-bottom: 15px;
+	margin-top: auto;
+}
+a {
+	text-decoration: none;
+	color: #de9204;
+}
+a:hover {
+	color: #000;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	float: left;
+}
+em#velocity {
+color:#fcba03;
+}
+#comunidad h1 {
+	font-size: 38pt;
+	margin-top: 3px;
+	margin-left: 5px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+#comunidad h2 {
+	font-family: cambria;
+	text-align: left;
+	margin: 0;
+}
+#comunidad a {
+	text-decoration: none;
+	color: #de9204;
+}
+#comunidad a:hover {
+	color: #000;
+}
+#star {
+	color:#121530;
+	font-weight: bold;
+}
+#columnas {
+	width: 300px;
+	height: 910px;
+	background-color:#710c04;
+	float: right;
+}
+#columnas img {
+	margin-top: 15px;
+}
+h4 {
+	margin-left: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-family:Verdana;
+	font-size: 8pt;
+	color: #ffb1b0;
+}
+#velocidad {
+	color:#ffc33f;
+
+}
+footer {
+	width: 960px;
+	height: 75px;
+	background-color:#9f1e22;
+	clear: both;
+}
+p#footer {
+	color:#000;
+	font-family: arial;
+	font-size: 15pt;
+	padding-left: 13px;
+	}
